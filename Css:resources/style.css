@@ -185,5 +185,103 @@ nav li{
 .sl-info :first-child{
     padding:3% 0
 }
+/*THESIS EXHIBIT SECTION*/
+.thesis-container{
+    padding: 2% 3%;
+}
+.thesis-grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: grey;
+    PADDINg:2%;
+}
 
+.thesis-container h1{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+}
+
+/*thesis left*/
+.urban-video video{
+    width:100%
+
+}
+.urban-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+
+}
+.urban-info {
+    padding: 1% 0% 5% 0%;
+}
+.urban-info h4 {
+    font-size: 200%;
+    padding:1% 0;
+    color: black;
+}
+.urban-info p{
+    font-size: small;
+    color: grey;
+}
+/*thesis right*/
+.other-thesis-container{
+    display: flex;
+    flex-direction: column;
+}
+.other-thesis-container img{
+    width: 10rem;
+}
+.other-thesis-container p{
+    color: grey;
+
+}
+.other-thesis-container h4{
+    color: black;
+}
+.fisma, .now-then{
+    display: flex;
+    padding:5%;
+}
+
+.fisma-info,.now-then-info {
+    padding:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 
+Footer 
+*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--light-grey);
+    margin-bottom: 1%;
+}
+footer
+
+footer > * {
+    font-size:small;
+    color: grey;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey
+}
+
+footer li {
+    padding: 0 1em;
+}
 
