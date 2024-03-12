@@ -131,6 +131,7 @@ nav li{
 }
 .news-right h4{
     font-size: 140%;
+    color: black;
 }
 .orientation-info,.campus-info,.guest-info{
     padding:0 5%;
@@ -146,3 +147,43 @@ nav li{
 .guest{
     background-color: lightgrey;
 }
+/*Start-learning*/
+.sl-container {
+    padding: 2% 10% 8% 10%;
+    background-color: gainsboro;
+}
+.sl-container h1{
+    text-align: center;
+    color: black;
+    padding:4%;
+    font-size: 200%;
+
+}
+
+.sl-grid-wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+.sl-grid-wrapper img {
+    width: 100%;
+    height: auto;
+}
+/*SINGLE-CARD*/
+.sl-grid-wrapper :first-child{
+    display: flex;
+    flex-direction: column;
+}
+.sl-info{
+    background-color: white;
+    padding: 12%;
+    background-color: cover;
+
+}
+.sl-info :first-child{
+    padding:3% 0
+}
+
+
